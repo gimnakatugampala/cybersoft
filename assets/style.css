@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Newsreader', serif;
+    color: black;
+    background: #E7E7E7;
+    line-height: 1.6;
+}
+
+/* Header */
+header{
+    background: #7B7676;
+    font-size: 24px;
+    border-bottom: 5px solid #84009E;
+    display: flex;
+    justify-content: space-between;
+}
+
+header span a{
+    font-size: 60px;
+    color: #fff !important;
+}
+
+header ul{
+    margin: 30px 30px 10px 20px;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
